@@ -10,4 +10,4 @@
 
 ## 🚀 التشغيل
 ```bash
-streamlit run app.py
+streamlit run excel_csv_converter.py
