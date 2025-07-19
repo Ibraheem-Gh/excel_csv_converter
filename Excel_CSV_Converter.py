@@ -65,7 +65,7 @@ if df is not None:
             df.to_excel(writer, index=False, sheet_name='Sheet1')
 
     st.download_button(
-        label=f"💾 تحميل الملف بصيغة {converted_type}",
+        label=f" تحميل الملف بصيغة {converted_type}",
         data=output.getvalue(),
         file_name=f"converted.{converted_type}",
         mime="application/octet-stream"
